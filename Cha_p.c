@@ -10,6 +10,5 @@ int Cha_p(va_list ch)
 
 	K = va_arg(ch, int);
 	_putchar(K);
-	_putchar('\n');
 	return (1);
 }
