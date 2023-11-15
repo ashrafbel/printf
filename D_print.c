@@ -5,8 +5,9 @@
  * @count: Pointer to count the number of characters printed
  */
 void print_d_h(int n, int *count)
+
 {
- if (n < 0)
+if (n < 0)
 {
 _putchar('-');
 n = -n;
@@ -15,7 +16,7 @@ n = -n;
 
 if (n / 10 != 0)
 {
- print_d_h(n / 10, count);
+print_d_h(n / 10, count);
 }
 
 _putchar((n % 10) + '0');
@@ -34,5 +35,5 @@ int n = va_arg(args, int);
 int C = 0;
 print_d_h(n, &C);
 
- return C;
+return (C);
 }
