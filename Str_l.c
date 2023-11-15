@@ -7,7 +7,7 @@
 
 int _slen(char *s)
 {
-        int K = 0;
+int K = 0;
 while (s[K] != '\0')
 {
 K++;
