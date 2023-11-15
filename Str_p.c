@@ -37,6 +37,7 @@ for (k = 0; k < l; k++)
 {
 _putchar(s[k]);
 }
-
+_putchar('\n');
+_putchar('\n');
 return (l);
 }
